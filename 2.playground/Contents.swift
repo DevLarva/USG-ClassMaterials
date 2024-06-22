@@ -59,16 +59,19 @@ mosthighValue()     //Int의 최댓값
 */
 
 
-let someInt = 100
+let score = 85
 
-if someInt < 100 {
-    print("100미만")
-} else if someInt > 100 {
-    print("100초과")
+if score >= 90 {
+    print("학점: A")
+} else if score >= 80 {
+    print("학점: B")
+} else if score >= 70 {
+    print("학점: C")
+} else if score >= 60 {
+    print("학점: D")
 } else {
-    print("100")
+    print("학점: F")
 }
-
 
 /*:
 ### switch 구문
@@ -83,6 +86,7 @@ default:
 }
 */
 
+let someInt = 10
 switch someInt {
 case 0:
     print("zero")
