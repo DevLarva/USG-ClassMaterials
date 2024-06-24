@@ -13,18 +13,22 @@ for name in names {
 }
 
 
+
+
+
 for i in 0...10 {
     print(i)
 }
 
 
 /*:
-### switch문
+### while문
 */
 
 
-var someInt : Int = 0
+var someInt = 0
 while someInt < 5 {
     print("\(someInt)")
-    someInt += 1
+    someInt = someInt + 1
+//    someInt += 1
 }
