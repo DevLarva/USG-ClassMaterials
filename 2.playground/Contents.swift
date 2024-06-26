@@ -1,44 +1,4 @@
 import UIKit
-//MARK: - 함수
-/*:
-![Constants Syntax](function.png)
-*/
-
-
-/* 함수 기본 형태
-func 함수이름(매개변수...) -> 반환 타입 {
-    /* 함수 구현 부분*/
-    return 반환 값
-}
-*/
-//  반환값이 없을때는 -> void를 사용하는 방식의 예를 들어라.
-
-//함수 선언의 기본 형태
-//기본 형태 늘려놓고 2개정도로 더
-
-func sum(a:Int, b: Int) -> Int {
-    return a + b
-}
-
-sum(a: 3, b: 5)
-print(sum(a: 31, b: 5))
-
-
-//변환 값이 없는 함수
-func printMyName(name: String) {
-    print(name)
-}
-
-printMyName(name: "백스터")
-
-
-//매개변수가 없는 함수
-func mosthighValue() -> Int {
-    return Int.max
-}
-
-mosthighValue()     //Int의 최댓값
-
 
 //MARK: - 조건문
 /*:
@@ -101,3 +61,35 @@ default:
 }
 
 
+/*:
+![Constants Syntax](반복문.png)
+*/
+
+/*:
+### for-in문
+*/
+let names = ["Alice", "Bob", "Charlie"]
+for name in names {
+    print("Hello, \(name)!")
+}
+
+
+
+
+
+for i in 0...10 {
+    print(i)
+}
+
+
+/*:
+### while문
+*/
+
+
+var someNumber = 0
+while someNumber < 5 {
+    print("\(someNumber)")
+    someNumber = someNumber + 1
+//    someNumber += 1
+}

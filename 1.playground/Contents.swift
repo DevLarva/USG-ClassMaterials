@@ -46,3 +46,6 @@ var day: Int
 
 //print("Int: \(Int.min) 부터 \(Int.max) 까지")
 
+
+
+
