@@ -7,10 +7,11 @@ import UIKit
 
 /*:
 ### if-else 구문
+ 
 */
 
 
-/*
+/* 기본 형태
  if 조건 {
      /* 실행 구문 */
  } else if 조건 {
@@ -20,6 +21,13 @@ import UIKit
  }
 */
 
+
+/*
+ 문제: 백스터는 오늘 시험에서 85점을 받았습니다. 이때 교수님이 정해준 성적 기준표에 맞는 백스터의 학점을 출력하세요.
+ 
+ 성적 기준표:
+ 90점 이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 나머지 F
+ */
 
 let score = 85
 
@@ -35,11 +43,12 @@ if score >= 90 {
     print("학점: F")
 }
 
+
 /*:
 ### switch 구문
 */
 
-/*
+/* 기본 형태
 switch 비교값 {
 case 패턴:
     /* 실행 구문 */
@@ -48,17 +57,21 @@ default:
 }
 */
 
-let someInt = 10
-switch someInt {
-case 0:
-    print("zero")
-case 1..<100:
-    print("1~99")
-case 100:
-    print("100")
+let score2 = 85
+
+switch score2 {
+case 90...:
+    print("학점: A")
+case 80..<90:
+    print("학점: B")
+case 70..<80:
+    print("학점: C")
+case 60..<70:
+    print("학점: D")
 default:
-    print("unknown")
+    print("학점: F")
 }
+
 
 
 /*:
@@ -68,9 +81,12 @@ default:
 /*:
 ### for-in문
 */
-let names = ["Alice", "Bob", "Charlie"]
-for name in names {
-    print("Hello, \(name)!")
+let fruits = ["사과", "바나나", "오렌지"]
+
+print(fruits)
+
+for name in fruits {
+    print(name)
 }
 
 

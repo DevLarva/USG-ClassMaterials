@@ -1,18 +1,18 @@
 import UIKit
 
-//MARK: - 변수(Variables)
 /*:
 ![Constants Syntax](var.png)
 */
 var greeting = 2
-//greeting = "GoodBye!"
+
 print(greeting)
+//greeting = "GoodBye!"
 
 //var grade    //annotation 에러
 //var grade
 
 
-//MARK: - 상수(Constants)
+
 /*:
 ![Constants Syntax](let.png)
 */
@@ -20,7 +20,6 @@ let Beverage = "Coffe"
 //Beverage = "Sprite"   //컴파일 에러
 
 
-//MARK: - 기본 데이터 타입
 /*:
 ![Constants Syntax](data.png)
 */
@@ -42,7 +41,7 @@ someString = """
 벗어난곳에 입력하면 오류가 발생 합니다.
 """
 
-var day: Int
+//var day: Int
 
 //print("Int: \(Int.min) 부터 \(Int.max) 까지")
 
