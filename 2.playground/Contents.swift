@@ -29,24 +29,13 @@ import UIKit
  90점 이상 A, 80점 이상 B, 70점 이상 C, 60점 이상 D, 나머지 F
  */
 
-let score = 85
-
-if score >= 90 {
-    print("학점: A")
-} else if score >= 80 {
-    print("학점: B")
-} else if score >= 70 {
-    print("학점: C")
-} else if score >= 60 {
-    print("학점: D")
-} else {
-    print("학점: F")
-}
 
 
 /*:
 ### switch 구문
 */
+
+
 
 /* 기본 형태
 switch 비교값 {
@@ -57,23 +46,6 @@ default:
 }
 */
 
-let score2 = 85
-
-switch score2 {
-case 90...:
-    print("학점: A")
-case 80..<90:
-    print("학점: B")
-case 70..<80:
-    print("학점: C")
-case 60..<70:
-    print("학점: D")
-default:
-    print("학점: F")
-}
-
-
-
 /*:
 ![Constants Syntax](반복문.png)
 */
@@ -81,31 +53,19 @@ default:
 /*:
 ### for-in문
 */
-let fruits = ["사과", "바나나", "오렌지"]
-
-print(fruits)
-
-for name in fruits {
-    print(name)
-}
-
-
-
-
-
-for i in 0...10 {
-    print(i)
-}
-
-
+//let fruits = ["사과", "바나나", "오렌지"]
+//print(fruits)
+//
+//for name in fruits {
+//    print(name)
+//}
 /*:
 ### while문
 */
 
+/*
+ 문제: 비어있는 박스에 최대로 들어갈수 있는 맥북의 수량이 5개라고 했을때, 박스에 맥북을 최대로 넣는 코드를 반복문으로 작성해주세요.
+ */
 
-var someNumber = 0
-while someNumber < 5 {
-    print("\(someNumber)")
-    someNumber = someNumber + 1
-//    someNumber += 1
-}
+
+//1시간 10분 -> 55분으로 줄여야함. 변수 상수 + 데이터 타입 부분 대본 수정(매끄럽지가 X), ppt할때는 말빠르기 좀 더 빠르게 해야함.

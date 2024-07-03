@@ -4,9 +4,9 @@ import UIKit
 ![Constants Syntax](var.png)
 */
 var greeting = 2
-
+greeting = 10
 print(greeting)
-//greeting = "GoodBye!"
+
 
 //var grade    //annotation 에러
 //var grade
@@ -24,13 +24,13 @@ let Beverage = "Coffe"
 ![Constants Syntax](data.png)
 */
 
-var someBool: Bool = true       //부울 타입
+var someBool: Bool  //부울 타입
 
 var someInt: Int = 30           //정수 타입
 
-var someFloat: Float = 3.14     //실수 타입(32비트)
+var someFloat: Float = 3.14     //부동 소수 타입(32비트)
 
-var someDouble: Double = 3.14   //실수 타입(64비튼)
+var someDouble: Double = 3.14   //부동 소수 타입(64비튼)
 
 var someCharacter: Character = "1" //문자 타입
 
